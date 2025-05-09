@@ -13,4 +13,8 @@ export default defineConfig({
     port: parseInt(process.env.PORT) || 10000,
     allowedHosts: ['.onrender.com'], // Allow all Render subdomains
   },
+    esbuild: {
+    target: 'esnext',
+    platform: 'linux',
+  }
 });

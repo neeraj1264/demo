@@ -12,7 +12,9 @@
   "engines": {
     "node": "18.x"
   },
-
+"resolutions": {
+  "rollup": "npm:@rollup/wasm-node"
+},
   "dependencies": {
     "@headlessui/react": "^2.2.2",
     "react": "^18.2.0",
