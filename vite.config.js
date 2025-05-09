@@ -4,10 +4,10 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
+  base: '/',
   optimizeDeps: {
     esbuildOptions: {
-      platform: 'browser'  // Change from 'linux' to 'browser'
+      platform: 'browser'
     },
   },
-  base: './',
 });
