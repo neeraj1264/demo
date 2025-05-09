@@ -9,4 +9,5 @@ export default defineConfig({
       platform: 'browser'  // Change from 'linux' to 'browser'
     },
   },
+  base: './',
 });
