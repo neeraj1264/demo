@@ -1,4 +1,4 @@
-import dummy from '/dummy.png';
+import dummy from 'public\dummy.png';
 
 export default function WelcomeMessage() {
   return (

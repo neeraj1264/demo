@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-import hero from '/hero.jpg';
+import hero from 'public\hero.jpg';
 
 export default function Hero() {
 

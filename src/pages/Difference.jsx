@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import { useLocation } from 'react-router-dom';
-import dummy from '/dummy.png';
+import dummy from 'public\dummy.png';
 
 export default function DifferenceWithImage() {
 
