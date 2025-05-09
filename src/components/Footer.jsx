@@ -1,6 +1,7 @@
 import React from "react";
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import dummy from '/dummy.png';
 
 export default function Footer() {
   return (
@@ -11,7 +12,7 @@ export default function Footer() {
         <Link to="/">
           <div className="col-span-1 flex flex-col items-center lg:items-start">
             <img
-              src="/dummy.png"
+              src={dummy}
               alt="Tcare for you"
               className="h-16 w-auto mb-4 mx-auto"
             />

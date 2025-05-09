@@ -1,6 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import { useLocation } from 'react-router-dom';
+import dummy from '/dummy.png';
 
 export default function DifferenceWithImage() {
 
@@ -20,7 +21,7 @@ export default function DifferenceWithImage() {
           {/* Image side */}
           <div className="md:w-1/2">
             <img
-              src="/dummy.png"
+              src={dummy}
               alt="Supportive care illustration"
               className="w-full rounded-xl shadow-lg object-cover"
             />

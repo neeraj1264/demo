@@ -1,3 +1,5 @@
+import dummy from '/dummy.png';
+
 export default function WelcomeMessage() {
   return (
     <>
@@ -21,7 +23,7 @@ export default function WelcomeMessage() {
           "
           >
             <img
-              src="/dummy.png"
+              src={dummy}
               alt="Adelaide Mosley"
               className="object-cover w-full h-full"
             />

@@ -1,5 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
+import dummy from '/dummy.png';
 
 export default function CompanyValues() {
 
@@ -8,28 +9,28 @@ export default function CompanyValues() {
         title: "Personalised Care",
         description:
           "We understand that every individual is unique. Our services are designed to be flexible, giving you choice and control over the care you receive. We ensure that your comfort, requests, and safety come first.",
-        imgSrc: "/dummy.png",
+        imgSrc: {dummy},
         imgAlt: "Hands holding a heart",
       },
       {
         title: "Comprehensive Home Care Solutions",
         description:
           "Whether you need personal care, respite, or home care, we offer a complete range of services to support your lifestyle within the familiar environment of your home.",
-        imgSrc: "/dummy.png",
+         imgSrc: {dummy},
         imgAlt: "House icon with heart",
       },
       {
         title: "Experienced Support",
         description:
           "Our support workers are not only highly qualified, but also deeply passionate about making a positive impact in the lives of those they care for. All our support workers keep their certifications and education up to date through nationally recognized healthcare training organisations.",
-        imgSrc: "dummy.png",
+        imgSrc: {dummy},
         imgAlt: "Professional caregiver",
       },
       {
         title: "Heartfelt Service",
         description:
           "We strive to build strong relationships with our clients and their families, ensuring that their needs and preferences are always at the forefront of our services. Together, we create a caring community where everyone has the equal opportunity to thrive.",
-        imgSrc: "dummy.png",
+      imgSrc: {dummy},
         imgAlt: "Heart icon",
       },
     ];

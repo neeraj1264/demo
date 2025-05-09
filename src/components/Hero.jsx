@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import hero from '/hero.jpg';
 
 export default function Hero() {
 
@@ -26,7 +27,7 @@ export default function Hero() {
           before:absolute before:inset-0 before:bg-black before:opacity-0
         "
         style={{
-          backgroundImage: "url('/header-img-main-sm.jpg')",
+          backgroundImage: `url(${hero})`,
         }}
       >
         <div className="relative z-10 max-w-3xl mx-auto px-4 text-center text-white">
