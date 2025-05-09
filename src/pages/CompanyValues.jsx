@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Hero from "../components/Hero";
-import dummy from 'public/dummy.png';
+import dummy from '/dummy.png';
 
 export default function CompanyValues() {
 
