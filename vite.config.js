@@ -1,20 +1,12 @@
-
+// vite.config.js
 import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react'
+import react from '@vitejs/plugin-react';
+
 export default defineConfig({
-   plugins: [react()],
-  server: {
-    host: '0.0.0.0',
-    port: parseInt(process.env.PORT) || 10000,
+  plugins: [react()],
+  optimizeDeps: {
+    esbuildOptions: {
+      platform: 'browser'  // Change from 'linux' to 'browser'
+    },
   },
-  preview: {
-     plugins: [react()],
-    host: '0.0.0.0',
-    port: parseInt(process.env.PORT) || 10000,
-    allowedHosts: ['.onrender.com'], // Allow all Render subdomains
-  },
-    esbuild: {
-    target: 'esnext',
-    platform: 'linux',
-  }
 });
